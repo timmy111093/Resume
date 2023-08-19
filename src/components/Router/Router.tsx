@@ -14,7 +14,7 @@ const Router: FC<RouterProps> = () => (
   <Routes>
     
     {/* default route */}
-    <Route path='/' element={<Home />}/>
+    <Route path='/Resume' element={<Home />}/>
 
     <Route path='/home' element={<Home />}/>
     <Route path='/about' element={<About />}/>

@@ -12,7 +12,7 @@ const root = ReactDOM.createRoot(
 const rootName = "/home";
 root.render(
   // <React.StrictMode>
-      <BrowserRouter basename={rootName}>
+      <BrowserRouter>
         <App />
       </BrowserRouter>
   // </React.StrictMode>
