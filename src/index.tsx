@@ -9,7 +9,7 @@ const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 
-const rootName = "/home";
+// const rootName = "/home";
 root.render(
   // <React.StrictMode>
       <BrowserRouter>
