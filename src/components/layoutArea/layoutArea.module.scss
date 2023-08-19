@@ -1,0 +1,17 @@
+.LayoutArea {
+
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 15% 78% 7%;
+    grid-template-columns: repeat(6,1fr);
+    & > header, & > footer{
+      grid-column: span 6;
+    }
+
+    & > main {
+      grid-column: span 6;
+    }
+    // & > footer{
+    //   border-top: 0.1px solid;
+    // }
+}

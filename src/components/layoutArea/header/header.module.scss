@@ -1,0 +1,28 @@
+.Header {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin: 10px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+      &__img{
+            & img{
+                  object-fit: cover;
+                  border-radius: 50%;
+                  border: 1px solid;
+            }
+      }
+      &__navigation{
+            display: flex;
+            justify-content: space-between;
+            & a{
+                  text-decoration: none;
+                  background-color: rgb(102, 109, 240);
+                  color: white;
+                  &:focus{
+                        background-color: rgb(47, 56, 232);
+                        color: white;    
+                  }
+            }
+      }
+}

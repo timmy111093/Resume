@@ -1,0 +1,80 @@
+.ContactMe {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+
+      &__links__facebook{
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 10px;
+            background-color: rgb(67, 67, 243);
+            border-radius: 10px;
+            color: white;
+            &:hover{
+                  background-color: rgb(51, 51, 205);  
+            }
+            &:visited{
+                  color: white;
+            }
+      }
+      &__links__linkedin{
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 10px;
+            background-color: rgb(25, 25, 152);
+            border-radius: 10px;
+            color: white;
+
+            &:hover{
+                  background-color: rgb(22, 22, 91);  
+            }
+            &:visited{
+                  color: white;
+            }
+      }
+      &__links__whatsapp{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 10px;
+            background-color: rgb(137, 152, 25);
+            text-decoration: none;
+            border-radius: 10px;
+            color: white;
+
+            &:hover{
+                  background-color: rgb(77, 174, 8);  
+            }
+            &:visited{
+                  color: white;
+            }
+      }
+      &__links__phone{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 10px;
+            background-color: rgb(162, 54, 54);
+            text-decoration: none;
+            border-radius: 10px;
+            color: white;
+
+            &:hover{
+                  background-color: rgb(163, 16, 16);  
+            }
+            &:visited{
+                  color: white;
+            }
+      }
+      h4{
+            padding: 10px;
+      }
+      td{
+            padding: 5px;
+      }
+}

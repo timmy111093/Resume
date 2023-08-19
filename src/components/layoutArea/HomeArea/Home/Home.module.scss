@@ -1,0 +1,34 @@
+.Main{
+
+      h5{
+            text-align: center;
+      }
+
+      &__paragraph{
+            text-align: center;
+      }
+      &__gitHub{
+            text-align: center;
+      }
+
+      &__techs{
+            display: flex;
+            justify-content: center;
+            &>div{
+                  &>b{
+                        text-align: center;
+                  }
+                  border: 0.2px solid;
+                  border-radius: 5px;
+                  margin: 10px;
+                  padding: 10px;
+                  width: 20%;
+                  &>ul{
+                        list-style-type: square;
+                        padding-left: 10%;
+                  }
+            }
+      }
+
+
+}
