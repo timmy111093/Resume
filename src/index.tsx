@@ -8,9 +8,11 @@ import { BrowserRouter } from 'react-router-dom';
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
+
+const rootName = "/home";
 root.render(
   // <React.StrictMode>
-      <BrowserRouter>
+      <BrowserRouter basename={rootName}>
         <App />
       </BrowserRouter>
   // </React.StrictMode>
