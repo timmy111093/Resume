@@ -14,22 +14,14 @@ const ContactMe: FC<ContactMeProps> = () => (
       
       <h4>Feel free to contact me on:</h4>
 
-      <table>
-          <tr>
-            <td>
             <NavLink className={styles.ContactMe__links__facebook} target='blank' to="https://www.facebook.com/profile.php?id=100000528510399"><BsFacebook size={35}/> Facebook</NavLink>
-            </td>
-            <td>
+
             <a className={styles.ContactMe__links__linkedin} href="https://www.linkedin.com/in/tamir-elmakyes-a99618255/"><AiFillLinkedin size={35}/> LinkedIn</a>
-            </td>
-            <td>
+
             <a className={styles.ContactMe__links__whatsapp} href="https://api.whatsapp.com/send?phone=972543193899"><BsWhatsapp size={35}/> WhatsApp</a>
-            </td>
-            <td>
+
             <a className={styles.ContactMe__links__phone} href="#"><BiPhone size={35}/> +972-543-193-899</a>
-            </td>
-          </tr>
-      </table>
+
     </div>
   </div>
 );
