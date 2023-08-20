@@ -11,24 +11,26 @@ interface HeaderProps {}
 const Header: FC<HeaderProps> = () => {
 
   return(
-    <header className={styles.Header}>
-      <div className={styles.Header__img}>
+    <header className={`container ${styles.Header}`}>
+        <div className="row">
+        <div className={`col-md-3 col-sm-6 ${styles.Header__img}`}>
+        
           <img src={photo} alt="tamir-profile" width={85}/>
+          <span><RiCodeSSlashFill size={50}/></span>
       </div>
-      <div>
-        <RiCodeSFill size={50}/> <RiCodeSSlashFill size={50}/>
-      </div>
-      <div>
+      <div className={`col-md-4 col-sm-6 ${styles.Header__description}`}>
         <h1>Tamir Elmakyes </h1>
         <h4>Full Stack Web Developer</h4>
       </div>
-      <div className={styles.Header__navigation} >
+      <div className={`col-md-5 col-sm-12 ${styles.Header__navigation}`} >
         <nav>
           <NavLink className={`Box ${styles.Aside}`} to='/home'>Home</NavLink>
           <NavLink className={`Box ${styles.Aside}`} to='/about'>About Me</NavLink>
           <NavLink className={`Box ${styles.Aside}`} to='/contact'>Contact Me</NavLink>
         </nav>
       </div>
+        </div>
+      
     </header>
   );
 }
