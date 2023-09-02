@@ -24,9 +24,13 @@ const Header: FC<HeaderProps> = () => {
       </div>
       <div className={`col-md-5 col-sm-12 ${styles.Header__navigation}`} >
         <nav>
-          <NavLink className={`Box ${styles.Aside}`} to='/home'>Home</NavLink>
-          <NavLink className={`Box ${styles.Aside}`} to='/about'>About Me</NavLink>
-          <NavLink className={`Box ${styles.Aside}`} to='/contact'>Contact Me</NavLink>
+          <NavLink className={`${styles.Aside}`} to='/home'>Home</NavLink>
+          <span> | </span>
+          <NavLink className={`${styles.Aside}`} to='/about'>About Me</NavLink>
+          <span> | </span>
+          <NavLink className={`${styles.Aside}`} to='/resume'>Resume</NavLink>
+          <span> | </span>
+          <NavLink className={`${styles.Aside}`} to='/contact'>Contact</NavLink>
         </nav>
       </div>
         </div>

@@ -1,9 +1,7 @@
 .Header {
-      // display: flex;
-      // align-items: center;
-      // justify-content: space-around;
       margin: 10px;
       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      color: rgb(61, 60, 60);
       &__img{
             display: flex;
             justify-content: space-around;
@@ -18,12 +16,15 @@
             justify-content: center;
             align-items: center;
             & a{
+                  padding: 8px;
+                  margin: 5px;
                   text-decoration: none;
-                  background-color: rgb(102, 109, 240);
-                  color: white;
+                  font-size: 100%;
+                  color: rgb(61, 60, 60);
                   &:focus{
-                        background-color: rgb(47, 56, 232);
-                        color: white;    
+                        border-radius: 7px;
+                        background-color: rgb(15, 216, 202);
+                        color: black;    
                   }
             }
       }

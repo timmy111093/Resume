@@ -1,4 +1,35 @@
 .Main{
+      & span{
+            padding: 10px;
+      }
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      &__circles{
+            margin: auto;
+            padding: 20px;
+            width: 75%;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+
+            &__feature{
+                  text-align: center;
+            }
+      }
+      &__circleItem{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            background-color: rgb(84, 85, 85);
+            margin: auto;
+      }
       h5{
             text-align: center;
       }
@@ -9,26 +40,7 @@
       &__gitHub{
             text-align: center;
       }
-
-      &__techs{
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            
-            &>div{
-                  &>b{
-                        text-align: center;
-                  }
-                  border: 0.2px solid;
-                  border-radius: 5px;
-                  margin: 5px;
-                  padding: 10px;
-                  &>ul{
-                        list-style-type:disc;
-                        padding-left: 10%;
-                  }
-            }
-      }
-
-
 }
+
+
+

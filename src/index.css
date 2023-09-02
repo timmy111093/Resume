@@ -6,7 +6,11 @@
 }
 
 body{
-  background: linear-gradient(360deg,white,skyblue);
+
+  background: url('./images/bg-3.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background: linear-gradient(360deg,white,skyblue); */
 }
 
 .Box{
