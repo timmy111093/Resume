@@ -21,8 +21,8 @@ const Router: FC<RouterProps> = () => (
     <Route path='/about' element={<About />}/>
     <Route path='/contact' element={<ContactMe />}/>
     <Route path='/resume' element={<Resume />} />
-    {/* error route */}
-    <Route path='*' element={<PageNotFound />}/>
+    {/* other route */}
+    <Route path='*' element={<Home />}/>
 
   </Routes>
 );
